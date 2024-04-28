@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section id="container">
+        <h1>Jogo da Forca</h1>
+        <div>
+            <input id="palavra" onfocus="focusPalavra()"  type="password"/>
+            <button onclick="pegaEscrita()" >click</button>
+        </div>
+        <img id="personagem" src="./img/0.png" alt="">
+        <div>
+            <input onkeyup="oi(event)" id="resposta" type="text"/>
+            <p></p>
+        </div>
+    </section>
+    
+</body>
+<script src="script.js"></script>
+</html>

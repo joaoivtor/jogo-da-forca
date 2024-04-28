@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    background: linear-gradient(#5c11be, #103db1) no-repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+#container{
+    text-align: center;
+    margin: 5rem 0;
+
+}
+
+h1, p{
+    margin: 10px 0;
+    color: rgb(48, 163, 184);
+    
+}
+
+p{
+    font-size:large;
+}
+
+#personagem{
+    width: 200px;
+}
+#palavra{
+    width: 350px;
+    font-size: 15px;
+}
